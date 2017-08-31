@@ -13,10 +13,15 @@ import com.innovative.interactexcel.XLS
 val xls = new XLS(filepath)
 
 xls.getSheetNames  // returns all sheet names as List
+
 xls.getAllSheets   // returns all SheetObj(Sheet Objects) 
+
 xls.getSheetCounts // return sheet counts
+
 xls.getSheet(sheetIndex: Int) // returns sheet with given index
+
 xls.getSheetHead(index: Int) // get Header of the given sheet
+
 xls.getSheetTail(index: Int) // ç
 
 
