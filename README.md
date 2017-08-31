@@ -27,8 +27,7 @@ xls.getSheetTail(index: Int) // ç
 
 # 2. All Methods on SheetObj (Sheet Object)
 
-// get sheet object
-val sheet = xls.getSheet(0)
+val sheet = xls.getSheet(0) // get sheet object
 
 sheet.getSheetName // returns name of the sheets
 
