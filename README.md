@@ -8,6 +8,7 @@
 
 # 1. All Methods to get metadata of XLS file
 
+```scala 
 import com.innovative.interactexcel.XLS
 
 val xls = new XLS(filepath)
@@ -23,10 +24,11 @@ xls.getSheet(sheetIndex: Int) // returns sheet with given index
 xls.getSheetHead(index: Int) // get Header of the given sheet
 
 xls.getSheetTail(index: Int) // ç
+'''
 
 
 # 2. All Methods on SheetObj (Sheet Object)
-
+'''scala
 val sheet = xls.getSheet(0) // get sheet object
 
 sheet.getSheetName // returns name of the sheets
@@ -42,3 +44,4 @@ sheet.getHeader // get Header of the sheet
 sheet.getTail // get Taul of the sheet
 
 getTailByQuery(columnNum: Int, operator: Char, operand: String) //get filtered Rows based on the given Query
+```
