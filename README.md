@@ -23,7 +23,7 @@ xls.getSheet(sheetIndex: Int) // returns sheet with given index
 
 xls.getSheetHead(index: Int) // get Header of the given sheet
 
-xls.getSheetTail(index: Int) // ç
+xls.getSheetTail(index: Int) // get Tail of the given sheet
 ```
 
 
@@ -41,7 +41,7 @@ sheet.getColumnDataTypes // returns column types as List
 
 sheet.getHeader // get Header of the sheet
 
-sheet.getTail // get Taul of the sheet
+sheet.getTail // get Tail of the sheet
 
 getTailByQuery(columnNum: Int, operator: Char, operand: String) //get filtered Rows based on the given Query
 ```
