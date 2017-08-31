@@ -28,7 +28,7 @@ xls.getSheetTail(index: Int) // ç
 
 
 # 2. All Methods on SheetObj (Sheet Object)
-'''scala
+```scala
 val sheet = xls.getSheet(0) // get sheet object
 
 sheet.getSheetName // returns name of the sheets
